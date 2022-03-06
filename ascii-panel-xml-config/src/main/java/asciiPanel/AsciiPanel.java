@@ -1,16 +1,12 @@
 package asciiPanel;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Image;
+import javax.imageio.ImageIO;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.awt.image.LookupOp;
 import java.awt.image.ShortLookupTable;
 import java.io.IOException;
-
-import javax.imageio.ImageIO;
-import javax.swing.JPanel;
 
 /**
  * This simulates a code page 437 ASCII terminal display.
@@ -329,9 +325,9 @@ public class AsciiPanel extends JPanel {
         oldBackgroundColors = new Color[widthInCharacters][heightInCharacters];
         oldForegroundColors = new Color[widthInCharacters][heightInCharacters];
 
-        if(font == null) {
-        	font = AsciiFont.CP437_9x16;
-        }
+//        if(font == null) {
+//        	font = AsciiFont.CP437_9x16;
+//        }
         setAsciiFont(font);
     }
     

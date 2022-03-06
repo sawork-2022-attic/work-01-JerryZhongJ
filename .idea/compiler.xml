@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ascii-panel" />
+        <module name="ascii-panel-java-config" />
+        <module name="ascii-panel-xml-config" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ascii-panel" target="11" />
+      <module name="ascii-panel-java-config" target="11" />
+      <module name="ascii-panel-xml-config" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

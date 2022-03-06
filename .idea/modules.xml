@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ascii-panel.iml" filepath="$PROJECT_DIR$/ascii-panel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ascii-panel-java-config/ascii-panel-java-config.iml" filepath="$PROJECT_DIR$/ascii-panel-java-config/ascii-panel-java-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ascii-panel-xml-config/ascii-panel-xml-config.iml" filepath="$PROJECT_DIR$/ascii-panel-xml-config/ascii-panel-xml-config.iml" />
     </modules>
   </component>
 </project>
